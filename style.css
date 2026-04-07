@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #f5f5f5;
+}
+
+header{
+    background-color: #6f0401;
+    display: flex;
+}
+header h1{
+    color: #b3afaf;
+    font-size: 16px;
+    padding: 10px 10px;
+    font-weight: lighter;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 10px 10px ;
+}
+
+ul li a{
+    padding: 10px 10px ;
+    text-decoration: none;
+    font-size: 14px;
+    color: #b3afaf ;
+}
+nav h4{
+    position: absolute;
+    right: 0;
+    padding: 10px 10px;
+    color: #b3afaf;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+ul li:hover{
+    background-color: #930303;
+    color: #fff;
+}
+ul li a:hover{
+    color: #fff;
+}
+header h1:hover{
+    color: #fff;
+}
+nav h4:hover{
+    background-color: #930303;
+    color: #fff;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 65%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 10px 0 10px;
+    border-radius: 4px;
+    border: #e7e4e4 1px solid;
+}
+
+.container h2{
+    padding: 0 0 20px 0;
+    font-weight: lighter;
+    font-size: 29px;
+}
+.container h4{
+    padding: 0 0 20px 0;
+    font-weight: lighter;
+}
+.container .bold-text{
+    font-weight: bolder;
+}
+
+.container p{
+    padding: 0 0 20px 0;
+}
+ .container p a{
+    color: #1A2F6B;
+    font-weight: bold;
+ }
+ .note{
+    background-color: #1a1a6b;
+    border-radius: 5px;
+ }
+ .note p{
+    color: #ffd71f;
+    padding: 15px;
+    line-height: 20px;
+    font-weight: bold;
+ }
+
+ .scam-alert-section{
+    background-color: #fff5f5;
+    margin-top: 30px;
+    border: 2px solid #8b1a1a;          
+ }
+ .scam-alert-section h2{
+    padding: 10px 10px 10px 20px;
+    background-color: #8b1a1a;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+ }
+ .scam-alert-section p{
+    padding: 10px 10px 10px 20px;
+    font-weight: lighter;
+    line-height: 25px;
+    color: #414040;
+
+ }
+ .scam-alert-section .red-text{
+    color: #8b1a1a;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-left: 20px;
+ }
+
+ .important-links{
+    font-weight: lighter;
+    padding: 20px 10px 10px 0;
+    color: #1a2f6b;
+    border-bottom: 3px solid #1a2f6b;
+ }
+  .links{
+    padding: 10px 10px 10px 0;
+    margin-top: 20px;
+  }
+  .links a{
+    color: #1a1a6b;
+    font-weight: bold;
+    padding: 20px 10px 20px 0;
+  }
+  .links p{
+    color: #414040;
+    padding: 0 0 10px 0;
+  }
+  .container .red-text{
+    color: #8b1a1a;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px 0 10px 0;
+  }
+
+     footer{
+            padding: 15px;
+            position: absolute;
+            right: 15%;
+           
+     }
+     footer p{
+         font-weight: lighter;
+         text-align: right;
+         font-size: 12px;
+     }
